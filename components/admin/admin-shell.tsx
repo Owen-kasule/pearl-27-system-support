@@ -7,9 +7,9 @@ import { signOut } from "@/app/admin/actions";
 
 export function AdminShell({ children, name }: { children: React.ReactNode; name: string | null }) {
   const nav = (
-    <nav aria-label="Admin navigation" className="space-y-1">
-      <Link href="/admin" className="flex min-h-11 items-center gap-3 rounded-[3px] px-3 text-sm font-semibold text-white/75 hover:bg-white/10 hover:text-white transition-colors"><LayoutDashboard size={18} />Dashboard</Link>
-      <Link href="/admin/tickets" className="flex min-h-11 items-center gap-3 rounded-[3px] px-3 text-sm font-semibold text-white/75 hover:bg-white/10 hover:text-white transition-colors"><Ticket size={18} />Tickets</Link>
+    <nav aria-label="Admin navigation" className="space-y-2">
+      <Link href="/admin" className="flex min-h-11 items-center gap-3 rounded-[4px] px-3 text-sm font-semibold text-white hover:bg-white/15 bg-white/5 transition-all"><LayoutDashboard size={18} className="text-[var(--copper)]" />Dashboard</Link>
+      <Link href="/admin/tickets" className="flex min-h-11 items-center gap-3 rounded-[4px] px-3 text-sm font-semibold text-white hover:bg-white/15 bg-white/5 transition-all"><Ticket size={18} className="text-[var(--copper)]" />Tickets</Link>
     </nav>
   );
   return (
