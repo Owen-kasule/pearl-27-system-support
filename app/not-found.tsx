@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function NotFound() { return <main className="flex min-h-screen items-center justify-center px-5 text-center"><div><p className="font-mono text-xs font-bold text-[var(--copper-dark)]">404</p><h1 className="font-serif mt-2 text-5xl font-semibold">Page not found</h1><p className="mt-3 text-[var(--ink-muted)]">The page or support ticket you requested could not be found.</p><Link className="primary-button mt-7" href="/">Return to support</Link></div></main>; }
