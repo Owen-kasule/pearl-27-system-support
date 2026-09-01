@@ -24,7 +24,7 @@ const mono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: { default: "Pearl 27 System Support", template: "%s | Pearl 27 Support" },
   description: "Support for Pearl 27 employees experiencing Sphere account issues.",
-  icons: { icon: "/favicon.svg" },
+  icons: { icon: "/pearl-27-logo.png" },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

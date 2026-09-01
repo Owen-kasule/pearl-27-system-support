@@ -6,7 +6,7 @@ export default function SupportPage() {
   return (
     <main className="min-h-screen bg-[radial-gradient(circle_at_90%_0%,rgba(232,135,43,.08),transparent_30%),var(--cream)]">
       <header className="border-b border-[var(--border)] bg-[rgba(250,249,246,.9)] px-5 py-4 backdrop-blur-md sm:px-8">
-        <div className="mx-auto flex max-w-6xl items-center justify-between"><Image src="/favicon.svg" alt="Pearl 27" width={40} height={40} className="h-10 w-auto" /><span className="hidden items-center gap-2 text-xs font-semibold text-[var(--ink-muted)] sm:flex"><ShieldCheck size={16} className="text-[var(--success)]" />Secure employee support</span></div>
+        <div className="mx-auto flex max-w-6xl items-center justify-between"><Image src="/pearl-27-logo.png" alt="Pearl 27" width={40} height={40} className="h-10 w-auto" /><span className="hidden items-center gap-2 text-xs font-semibold text-[var(--ink-muted)] sm:flex"><ShieldCheck size={16} className="text-[var(--success)]" />Secure employee support</span></div>
       </header>
       <div className="mx-auto max-w-4xl px-4 py-9 sm:px-6 sm:py-14 lg:py-16">
         <div className="mb-7 text-center sm:mb-9">
