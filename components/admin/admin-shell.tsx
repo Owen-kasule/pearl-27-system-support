@@ -8,8 +8,8 @@ import { signOut } from "@/app/admin/actions";
 export function AdminShell({ children, name }: { children: React.ReactNode; name: string | null }) {
   const nav = (
     <nav aria-label="Admin navigation" className="space-y-2">
-      <Link href="/admin" className="flex min-h-11 items-center gap-3 rounded-[4px] px-3 text-sm font-semibold text-white hover:bg-white/15 bg-white/5 transition-all"><LayoutDashboard size={18} className="text-[var(--copper)]" />Dashboard</Link>
-      <Link href="/admin/tickets" className="flex min-h-11 items-center gap-3 rounded-[4px] px-3 text-sm font-semibold text-white hover:bg-white/15 bg-white/5 transition-all"><Ticket size={18} className="text-[var(--copper)]" />Tickets</Link>
+      <Link href="/admin" className="flex min-h-11 items-center gap-3 rounded-[4px] px-3 text-sm font-bold text-white hover:bg-white/20 bg-white/8 transition-all shadow-sm"><LayoutDashboard size={18} className="text-[var(--copper)]" />Dashboard</Link>
+      <Link href="/admin/tickets" className="flex min-h-11 items-center gap-3 rounded-[4px] px-3 text-sm font-bold text-white hover:bg-white/20 bg-white/8 transition-all shadow-sm"><Ticket size={18} className="text-[var(--copper)]" />Tickets</Link>
     </nav>
   );
   return (
