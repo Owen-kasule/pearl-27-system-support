@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <style>
+      .cream { fill: #faf9f6; }
+      .navy { fill: #1b2a4a; }
+      .copper { fill: #e8872b; }
+    </style>
+  </defs>
+  
+  <!-- Outer copper border -->
+  <circle cx="256" cy="256" r="252" class="copper" stroke="none"/>
+  
+  <!-- Navy outer ring -->
+  <circle cx="256" cy="256" r="245" class="navy"/>
+  <circle cx="256" cy="256" r="235" class="cream"/>
+  
+  <!-- Navy inner ring/border -->
+  <circle cx="256" cy="256" r="235" fill="none" stroke="#1b2a4a" stroke-width="8"/>
+  <circle cx="256" cy="256" r="227" fill="none" stroke="#e8872b" stroke-width="4"/>
+  
+  <!-- Text: PEARL -->
+  <text x="256" y="180" font-family="Georgia, serif" font-size="140" font-weight="bold" text-anchor="middle" class="navy" letter-spacing="-2">PEARL</text>
+  
+  <!-- Text: 27 -->
+  <text x="256" y="340" font-family="Georgia, serif" font-size="160" font-weight="bold" text-anchor="middle" class="navy" letter-spacing="-4">27</text>
+</svg>

@@ -13,7 +13,7 @@ export function AdminShell({ children, name }: { children: React.ReactNode; name
   return (
     <div className="min-h-screen bg-[var(--cream)] lg:grid lg:grid-cols-[248px_1fr]">
       <aside className="hidden min-h-screen bg-[var(--navy-deep)] px-5 py-6 lg:block">
-        <div className="[&_span]:text-white [&_.text-\[var\(--copper-dark\)\]]:!text-[var(--copper)]"><BrandMark /></div>
+        <div className="[&_span]:!text-white [&_.text-\[var\(--copper-dark\)\]]:!text-[var(--copper)]"><BrandMark /></div>
         <div className="mt-10">{nav}</div>
         <div className="fixed bottom-6 w-[208px] border-t border-white/10 pt-5"><p className="truncate px-3 text-xs text-white/55">Signed in as</p><p className="mt-1 truncate px-3 text-sm font-semibold text-white">{name || "Support Admin"}</p><form action={signOut}><button className="mt-4 flex min-h-11 w-full items-center gap-3 rounded-[3px] px-3 text-sm font-semibold text-white/70 hover:bg-white/7 hover:text-white"><LogOut size={17} />Sign Out</button></form></div>
       </aside>
